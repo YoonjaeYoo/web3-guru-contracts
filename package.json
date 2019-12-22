@@ -1,0 +1,23 @@
+{
+  "name": "web3-guru-contracts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "waffle",
+    "test": "waffle && npx buidler test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0"
+  },
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.1",
+    "@nomiclabs/buidler-ethers": "^1.0.1",
+    "bignumber.js": "^9.0.0",
+    "chai": "^4.2.0",
+    "chai-bignumber": "^3.0.0",
+    "ethereum-waffle": "^2.1.2",
+    "ethers": "^4.0.40",
+    "mocha": "^6.2.2"
+  }
+}
